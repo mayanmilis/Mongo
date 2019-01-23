@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 //Create Schema and Model
 
-const ContentSchema = new Schema({  
+const MovieSchema = new Schema({  
     vote_count: Number,
     id: Number,
     video: Boolean,
@@ -24,8 +24,7 @@ const ContentSchema = new Schema({
     release_date: String
 });
 
-const Movie = mongoose.model('movies', ContentSchema);
-const Show = mongoose.model('shows', ContentSchema);
+const Movie = mongoose.model('movies', MovieSchema);
 
 
-module.exports = Movie, Show;
+module.exports = Movie;
