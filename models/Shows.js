@@ -24,7 +24,7 @@ const ShowSchema = new Schema({
     release_date: String
 });
 
-const Show = mongoose.model('shows', ShowSchema);
+const Show = mongoose.model('Shows', ShowSchema);
 
 
 module.exports = Show;

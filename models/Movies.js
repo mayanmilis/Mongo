@@ -24,7 +24,7 @@ const MovieSchema = new Schema({
     release_date: String
 });
 
-const Movie = mongoose.model('movies', MovieSchema);
+const Movie = mongoose.model('Movies', MovieSchema);
 
 
 module.exports = Movie;

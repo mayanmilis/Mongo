@@ -1,0 +1,7 @@
+stage 1
+open cmd and type: cd "C:\Program Files\MongoDB\Server\4.0\bin"
+type: mongod
+
+stage 2
+open cmd and type: cd "C:\Program Files\MongoDB\Server\4.0\bin"
+mongoimport --jsonArray --db FlowerTV --collection Shows --file "D:\Users\Iris\Desktop\programing\React- Maayan\Projects\Flower-TV database\json files\Shows.json"
